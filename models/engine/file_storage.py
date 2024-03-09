@@ -4,6 +4,8 @@
 this file represents the Ser of instance to json file and vice versa
 
 """
+import json
+from models.base_model import BaseModel
 
 class FileStorage():
 
