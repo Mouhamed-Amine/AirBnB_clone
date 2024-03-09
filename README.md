@@ -1,7 +1,12 @@
 # AirBnB clone project
 #1 At the beginning we have created BaseModel.py file that has an attribut and methods that we are going to use in the project later
 
-those attribut are id,created at and updated_a, we also used args and kwargs in the constructor to make parameter assigning dynamic.
+those attribut are id,created at and updated_a, we also used args and kwargs(dictionary that help us manage the giving parameters) in the constructor to make parameter assigning dynamic.
+
+//Exemple:
+def myFun(**kwargs):
+    for key, value in kwargs.items():
+        print("%s == %s" % (key, value))
 
 we've learned new concept which is uuid(a unique identifier for an object on interent) to initialize id attribut with and then the created and updated attribut get initilized using datetime module.
 
